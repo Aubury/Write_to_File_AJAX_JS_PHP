@@ -1,0 +1,29 @@
+*{
+box-sizing: border-box;
+font-size: 1.2em;
+
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center !important;
+   
+}  
+.col{
+    display: flex;
+    flex-direction: column;
+} 
+form{
+    
+    margin: 10px auto;
+}
+input{
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid black;
+}
+[placeholder]{
+  
+    font-style: italic;
+}
